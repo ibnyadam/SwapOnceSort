@@ -18,7 +18,7 @@ public class SwapOnceSort {
 			int k = 0;
 			if(count > 0){
 				while(k < dataSize-1){
-					if((list[index] != list[index+count+k])){ 
+					if (list[index] != list[index+count+k]){ 
 						//swapping value of two numbers with using temp variable
 						int temp = list[index];
 						list[index] = list[index+count+k];
